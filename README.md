@@ -210,3 +210,65 @@ A new application stack follows from the new substrate. The stack derives from t
 New infrastructure and developer tools make the idea work at product scale.
 
 This is future work.
+
+## Frequently Asked Questions (FAQ)
+
+**Target Audience**: Systems engineers, programming language researchers, and protocol developers.
+
+<details>
+<summary><b>.🧠 1. Is this an AI/deep learning lab or a traditional systems lab?</b></summary>
+
+**We are a systems-first computing substrate lab.** While modern tech often conflates "deep tech" purely with AI, our domain is core computer science and programming language theory.
+    
+Our focus is entirely on the structural primitive of state itself. We treat state as an infrastructure problem rather than an application problem. However, our universal treatment of state directly intersections with the future of intelligent software; by building a substrate where stateful tracking is handled natively by the runtime, we provide the foundational mechanics required for autonomous agents and complex, reactive distributed environments to run cleanly at scale without legacy boilerplate.
+    
+</details>
+
+<details>
+<summary><b>🛠️ 2. How does the lab’s methodology balance research with real-world engineering?</b></summary>
+
+We operate under a strict, bidirectional feedback loop: **Engineering informs the research; research informs the engineering.**
+
+We do not write purely theoretical academic papers in a vacuum, nor do we build ad-hoc, unprincipled software tools. Every specification, language directive, or protocol we design is born from diagnosing systemic friction in production-scale software. Conversely, our formal computer science research mandates the exact architecture of the runtimes and developer infrastructure we implement. We only consider a state problem "solved" when its formal mathematical treatment compiles into stable, product-scale tooling.
+
+</details>
+
+<details>
+<summary><b>⚡ 3. How does "State Engineering" differ from traditional State Management?</b></summary>
+
+Traditional state management is a user-land surface concern. It isolates state into specific pockets of an application using local custom stores, variables, and ephemeral frameworks that do not compose with one another.
+
+We have identified and named a recurring, universal shape of work that spans every layer of computing—cache invalidation, UI reactivity, database syncing, and distributed network coordination. We call this macro-discipline State Engineering. State Engineering recognizes that whether you are binding memory mutations to a DOM or reconstructing local state from event streams across a cloud network, you are solving the exact same fundamental problem. Our lab treats this entire continuum as a singular, first-class primitive.
+
+</details>
+
+<details>
+<summary><b>🌌 4. Where does the Unified State paradigm intersect with classic programming language theory?</b></summary>
+
+Historically, programming language design has treated memory management as an implicit, runtime-level concern (e.g., automatic garbage collection), while forcing developers to manage state mutations explicitly through manual, fragile code structures.
+
+The **Unified State Model** alters this division of labor. It answers the fundamental question of who accounts for what, and how, by shifting state tracking from a developer concern to a system concern. In our paradigm, change detection and observability become an intrinsic property of mutation itself, built straight into the runtime's control flow graph. This fundamentally bridges the gap between pure functional programming concepts (which ban shared mutable state) and imperative paradigms, offering a safe, universal protocol for live computation.
+
+</details>
+
+<details>
+<summary><b>🌐 5. How does this model redefine state boundaries across distributed systems?</b></summary>
+
+Modern distributed systems are plagued by the architectural split between stateless protocols (like standard HTTP) and separate, heavy real-time infrastructure (WebSockets, Server-Sent Events) used to push updates. This forces developers to repay the engineering cost of state reconstruction at every network boundary.
+
+Our research redefines these boundaries by extending existing network and query protocols to support Live Contracts. By formalizing change as part of the initial data request model, objects conceptually cross network, protocol, and database boundaries by reference. This eliminates secondary synchronization infrastructure entirely, making state across a global distributed cluster conceptually indistinguishable from a local memory reference.
+
+</details>
+
+<details>
+<summary><b>📚 6. What is the roadmap for the lab's upcoming publications and specifications?</b></summary>
+
+Our core research is organized into an in-progress, 6-part formal paper series titled **Stateful Computing—Rederived from First Principles.**
+
+The publication roadmap moves sequentially from foundational computation theory up to global cloud execution:
+
+1. **Computing Theory:** Defining the layered account of state and introducing observability as a missing primitive of mutable state.
+2. **Language & Runtime Substrate:** Formalizing the low-level Observer API and the implementation semantics of the use live compiler directive.
+3. **System Scope:** Delivering specifications for protocol continuity across stateless boundaries and persistent state sessions.
+
+</details>
