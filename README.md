@@ -4,7 +4,38 @@
 
 ---
 
+* [1. Who We Are](#1-who-we-are)
+* [2. What We Found](#2-what-we-found)
+* [3. What Changes](#3-what-changes)
+    * [3.1 At the language/runtime layer](#31-at-the-languageruntime-layer)
+    * [3.2 At the application layer](#32-at-the-application-layer)
+    * [3.3 Across network/protocol boundaries](#33-across-networkprotocol-boundaries)
+    * [3.4 Across DSL/query boundaries](#34-across-dslquery-boundaries)
 
+
+* [4. Reference Papers](#4-reference-papers)
+    * [4.1 Computing Theory](#41-computing-theory)
+    * [4.2 Language/runtime substrate](#42-languageruntime-substrate)
+    * [4.3 System Scope](#43-system-scope)
+
+
+* [5. Reference Projects](#5-reference-projects)
+    * [5.1 Language/runtime primitives](#51-languageruntime-primitives)
+    * [5.2 Network/Messaging primitives](#52-networkmessaging-primitives)
+    * [5.3 Application-layer primitives](#53-application-layer-primitives)
+    * [5.4 Browser/DOM-level work](#54-browserdom-level-work)
+    * [5.5 SQL/Database work](#55-sqldatabase-work)
+    * [5.6 System/Framework work](#56-systemframework-work)
+
+
+* [6. The Application Stack](#6-the-application-stack)
+    * [6.1 Webflo—the application framework](#61-webflothe-application-framework)
+    * [6.2 OOHTML—the rendering layer](#62-oohtmlthe-rendering-layer)
+    * [6.3 LinkedQL & FlashQL—the durable layer](#63-linkedql--flashqlthe-durable-layer)
+
+
+* [7. Infrastructure & Developer Tools](#7-infrastructure--developer-tools)
+* [8. Frequently Asked Questions (FAQ)](#8-frequently-asked-questions-faq)
 
 ---
 
@@ -219,7 +250,7 @@ New infrastructure and developer tools make the idea work at product scale.
 
 This is future work.
 
-## Frequently Asked Questions (FAQ)
+## 8. Frequently Asked Questions (FAQ)
 
 **Target Audience**: Systems engineers, programming language researchers, and protocol developers.
 
