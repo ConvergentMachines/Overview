@@ -2,8 +2,6 @@
 
 > The foundational framework, technical specification roadmap, and architectural FAQs for a universal computing substrate.
 
----
-
 * [1. Who We Are](#1-who-we-are)
 * [2. What We Found](#2-what-we-found)
 * [3. What Changes](#3-what-changes)
@@ -36,8 +34,6 @@
 
 * [7. Infrastructure & Developer Tools](#7-infrastructure--developer-tools)
 * [8. Frequently Asked Questions (FAQ)](#8-frequently-asked-questions-faq)
-
----
 
 ## 1. Who We Are
 
@@ -250,12 +246,12 @@ New infrastructure and developer tools make the idea work at product scale.
 
 This is future work.
 
+---
+
 ## 8. Frequently Asked Questions (FAQ)
 
-**Target Audience**: Systems engineers, programming language researchers, and protocol developers.
-
 <details>
-<summary><b>.🧠 1. Is this an AI/deep learning lab or a traditional systems lab?</b></summary>
+<summary><b>1. Is this an AI/deep learning lab or a traditional systems lab?</b></summary>
 
 **We are a systems-first computing substrate lab.** While modern tech often conflates "deep tech" purely with AI, our domain is core computer science and programming language theory.
     
@@ -263,8 +259,10 @@ Our focus is entirely on the structural primitive of state itself. We treat stat
     
 </details>
 
+---
+
 <details>
-<summary><b>🛠️ 2. How does the lab’s methodology balance research with real-world engineering?</b></summary>
+<summary><b>2. How does the lab’s methodology balance research with real-world engineering?</b></summary>
 
 We operate under a strict, bidirectional feedback loop: **Engineering informs the research; research informs the engineering.**
 
@@ -272,8 +270,10 @@ We do not write purely theoretical academic papers in a vacuum, nor do we build 
 
 </details>
 
+---
+
 <details>
-<summary><b>⚡ 3. How does "State Engineering" differ from traditional State Management?</b></summary>
+<summary><b>3. How does "State Engineering" differ from traditional State Management?</b></summary>
 
 Traditional state management is a user-land surface concern. It isolates state into specific pockets of an application using local custom stores, variables, and ephemeral frameworks that do not compose with one another.
 
@@ -281,8 +281,10 @@ We have identified and named a recurring, universal shape of work that spans eve
 
 </details>
 
+---
+
 <details>
-<summary><b>🌌 4. Where does the Unified State paradigm intersect with classic programming language theory?</b></summary>
+<summary><b>4. Where does the Unified State paradigm intersect with classic programming language theory?</b></summary>
 
 Historically, programming language design has treated memory management as an implicit, runtime-level concern (e.g., automatic garbage collection), while forcing developers to manage state mutations explicitly through manual, fragile code structures.
 
@@ -290,8 +292,10 @@ The **Unified State Model** alters this division of labor. It answers the fundam
 
 </details>
 
+---
+
 <details>
-<summary><b>🌐 5. How does this model redefine state boundaries across distributed systems?</b></summary>
+<summary><b>5. How does this model redefine state boundaries across distributed systems?</b></summary>
 
 Modern distributed systems are plagued by the architectural split between stateless protocols (like standard HTTP) and separate, heavy real-time infrastructure (WebSockets, Server-Sent Events) used to push updates. This forces developers to repay the engineering cost of state reconstruction at every network boundary.
 
@@ -299,8 +303,10 @@ Our research redefines these boundaries by extending existing network and query 
 
 </details>
 
+---
+
 <details>
-<summary><b>📚 6. What is the roadmap for the lab's upcoming publications and specifications?</b></summary>
+<summary><b>6. What is the roadmap for the lab's upcoming publications and specifications?</b></summary>
 
 Our core research is organized into an in-progress, 6-part formal paper series titled **Stateful Computing—Rederived from First Principles.**
 
