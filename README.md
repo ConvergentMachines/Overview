@@ -1,6 +1,6 @@
 # The Unified State Blueprint
 
-_The foundational framework, technical specification roadmap, and architectural FAQs for Unified State Labs._
+_The foundational framework, technical specification roadmap, and FAQs for Unified State Labs._
 
 * [1. Who We Are](#1-who-we-are)
 * [2. What We Found](#2-what-we-found)
