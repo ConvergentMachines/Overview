@@ -1,4 +1,12 @@
-# Charter & Manifesto
+# The Unified State Blueprint
+
+> The foundational framework, technical specification roadmap, and architectural FAQs for a universal computing substrate.
+
+---
+
+
+
+---
 
 ## 1. Who We Are
 
