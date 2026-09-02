@@ -1,6 +1,6 @@
 # The Unified State Blueprint
 
-> The foundational framework, technical specification roadmap, and architectural FAQs for a universal computing substrate.
+_The foundational framework, technical specification roadmap, and architectural FAQs for a universal computing substrate._
 
 * [1. Who We Are](#1-who-we-are)
 * [2. What We Found](#2-what-we-found)
@@ -246,9 +246,9 @@ New infrastructure and developer tools make the idea work at product scale.
 
 This is future work.
 
----
-
 ## 8. Frequently Asked Questions (FAQ)
+
+---
 
 <details>
 <summary><b>1. Is this an AI/deep learning lab or a traditional systems lab?</b></summary>
