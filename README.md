@@ -1,6 +1,6 @@
-# The Unified State Blueprint
+# Convergent Machines Lab
 
-_The foundational framework, technical specification roadmap, and FAQs for Unified State Labs._
+_The foundational framework, technical specification roadmap, and FAQs for Convergent Machines Lab._
 
 * [1. Who We Are](#1-who-we-are)
 * [2. What We Found](#2-what-we-found)
@@ -37,7 +37,7 @@ _The foundational framework, technical specification roadmap, and FAQs for Unifi
 
 ## 1. Who We Are
 
-**Unified State Labs** is an engineering and research lab working on state as a first-class problem in computing. The quest is to rederive stateful computing from first principles. The work produces a new substrate for computing with a formal, universal treatment of state—comprising new paradigms and design patterns, new protocol, language, and runtime specifications and implementations—with the infrastructure and developer tools that make it work at product scale. Engineering informs the research; research informs the engineering.
+**Convergent Machines Lab** is an engineering and research lab working on state as a first-class problem in computing. The quest is to rederive stateful computing from first principles. The work produces a new substrate for computing with a formal, universal treatment of state—comprising new paradigms and design patterns, new protocol, language, and runtime specifications and implementations—with the infrastructure and developer tools that make it work at product scale. Engineering informs the research; research informs the engineering.
 
 > This Lab continues the work we started at [@webqit](https://github.com/webqit) and [@linked-db](https://github.com/linked-db).
 > 
