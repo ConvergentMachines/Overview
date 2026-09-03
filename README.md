@@ -1,4 +1,4 @@
-# Convergent Machines Lab
+# Overview
 
 _The foundational framework, technical specification roadmap, and FAQs for Convergent Machines Lab._
 
